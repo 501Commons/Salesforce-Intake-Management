@@ -3,7 +3,10 @@
     <fullName>intake-management</fullName>
     <types>
         <members>Contact.C501_Geographic_Region__c</members>
+        <members>Contact.C501_Minor_Check__c</members>
+        <members>Contact.C501_Minor__c</members>
         <members>Contact.C501_Text_Messages_OK__c</members>
+        <members>Contact.Email_Alert_Data__c</members>
         <members>Contact.Survey_Educational_Level_Adults__c</members>
         <members>Contact.Survey_Employment_Status_at_Intake__c</members>
         <members>Contact.Survey_HUD_Category__c</members>
@@ -27,9 +30,6 @@
         <members>Contact.Survey_Refugee_Immigrant__c</members>
         <members>Contact.Survey_Spanish_Hispanic_Latino__c</members>
         <members>Contact.Survey_Spanish_Hispanic_Latino__c</members>
-        <members>Contact.C501_Minor__c</members>
-        <members>Contact.C501_Minor_Check__c</members>
-        <members>Contact.C501_Alert_Data__c</members>
         <name>CustomField</name>
     </types>
     <types>

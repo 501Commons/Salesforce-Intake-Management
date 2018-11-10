@@ -25,11 +25,42 @@ IF(
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>C501_Minor_Check__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Age__c &lt; 18, true, false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>If Age is less than 18, box is checked</inlineHelpText>
+        <label>Minor</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>C501_Minor__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Age__c &lt; 18, 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Value of 1 if Age is less than 18</inlineHelpText>
+        <label>Minor Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>C501_Text_Messages_OK__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Text Messages OK</label>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Email_Alert_Data__c</fullName>
+        <externalId>false</externalId>
+        <label>Email Alert Data</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Survey_Educational_Level_Adults__c</fullName>
