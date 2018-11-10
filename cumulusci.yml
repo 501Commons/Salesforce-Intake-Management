@@ -1,0 +1,7 @@
+project:
+    name: Salesforce-Intake-Management
+    package:
+        name:  Salesforce-Intake-Management
+        api_version: '42.0'
+
+
